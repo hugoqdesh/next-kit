@@ -12,7 +12,7 @@ export default function Showcase() {
 					width={1080}
 					unoptimized
 					priority
-					className="w-full rounded-sm"
+					className="w-full rounded-sm select-none"
 				/>
 			</div>
 		</section>

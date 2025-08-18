@@ -248,3 +248,13 @@
 	animation: none;
 	mix-blend-mode: normal;
 }
+
+::selection {
+	background: #bf40bf;
+	color: #fff;
+}
+
+::-moz-selection {
+	background: #bf40bf;
+	color: #fff;
+}
