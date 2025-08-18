@@ -56,9 +56,9 @@ export default function Pricing() {
 					className="bg-primary"
 					style={{
 						boxShadow:
-							"0px 0px 80px 30px rgb(255 255 255 / 50%), 0 0 100px 60px rgb(0 0 0 / 50%), 0 0 140px 90px rgb(0 0 0 / 50%)",
+							"0px 0px 80px 30px rgb(0 0 0 / 15%), 0 0 100px 60px rgb(0 0 0 / 15%), 0 0 140px 90px rgb(0 0 0 / 15%)",
 					}}
-					size={120}
+					size={240}
 				/>
 				<p className="text-2xl font-medium">Pro</p>
 
