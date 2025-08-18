@@ -1,5 +1,4 @@
 import React from "react";
-import Stats from "./stats";
 import Image from "next/image";
 
 export default function Showcase() {
@@ -16,8 +15,6 @@ export default function Showcase() {
 					className="w-full rounded-sm"
 				/>
 			</div>
-
-			{/* <Stats /> */}
 		</section>
 	);
 }

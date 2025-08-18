@@ -113,16 +113,16 @@ export default function Footer() {
 							<li>
 								<Link
 									href="/"
-									className="text-sm hover:text-primary transition-colors flex items-center gap-1"
+									className="text-sm hover:text-primary transition-colors flex items-center gap-1 w-max"
 								>
 									<Mail size={15} />
-									support@databuddy.cc
+									yourinfo@gmail.com
 								</Link>
 							</li>
 							<li>
 								<Link
 									href="/"
-									className="text-sm hover:text-primary transition-colors flex items-center gap-1"
+									className="text-sm hover:text-primary transition-colors flex items-center gap-1 w-max"
 								>
 									<Instagram size={15} />
 									Instagram
@@ -131,7 +131,7 @@ export default function Footer() {
 							<li>
 								<Link
 									href="/"
-									className="text-sm hover:text-primary transition-colors flex items-center gap-1"
+									className="text-sm hover:text-primary transition-colors flex items-center gap-1 w-max"
 								>
 									<Github size={15} />
 									GitHub
@@ -140,7 +140,7 @@ export default function Footer() {
 							<li>
 								<Link
 									href="/"
-									className="text-sm hover:text-primary transition-colors flex items-center gap-1"
+									className="text-sm hover:text-primary transition-colors flex items-center gap-1 w-max"
 								>
 									<Twitter size={15} />X
 								</Link>
@@ -151,10 +151,16 @@ export default function Footer() {
 
 				<div className="text-muted-foreground text-xs flex pb-4 pt-8 items-center justify-between md:px-2">
 					<div className="flex gap-4">
-						<Link href="/" className="hover:text-primary transition-colors">
+						<Link
+							href="/privacy"
+							className="hover:text-primary transition-colors"
+						>
 							Privacy Policy
 						</Link>
-						<Link href="/" className="hover:text-primary transition-colors">
+						<Link
+							href="/terms"
+							className="hover:text-primary transition-colors"
+						>
 							Terms of Service
 						</Link>
 					</div>
