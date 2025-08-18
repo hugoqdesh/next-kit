@@ -14,7 +14,7 @@ import { cn } from "@/lib/utils";
 
 export default function Hero() {
 	return (
-		<section className="grid grid-cols-2">
+		<section className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-0">
 			<div className="flex flex-col gap-6">
 				<h1 className="font-semibold text-7xl leading-tight tracking-tight text-muted-foreground">
 					<span className="text-primary">Ship</span> second{" "}

@@ -5,7 +5,7 @@ import { HeartHandshake } from "lucide-react";
 export default function CallToAction() {
 	return (
 		<section className="mx-auto max-w-5xl w-full rounded-3xl border px-6 py-32">
-			<div className="flex flex-col items-center justify-center gap-4">
+			<div className="flex flex-col items-center justify-center text-center gap-4">
 				<h2 className="scroll-m-20 text-3xl font-semibold tracking-tight text-muted-foreground">
 					You're just one{" "}
 					<PointerHighlight

@@ -17,7 +17,7 @@ export default function Features() {
 				</PointerHighlight>
 			</h2>
 
-			<div className="grid grid-cols-3 gap-6 mt-6">
+			<div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-6 mt-6">
 				<Card className="bg-background rounded-sm border-none">
 					<MagicCard
 						gradientColor="#262626"

@@ -12,8 +12,8 @@ import { TextHoverEffect } from "../ui/text-hover-effect";
 export default function Footer() {
 	return (
 		<footer className="border-t">
-			<div className="max-w-7xl mx-auto pt-8">
-				<div className="grid grid-cols-4">
+			<div className="max-w-7xl mx-auto pt-8 px-4 md:px-0">
+				<div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:px-2">
 					<div>
 						<Link href="/" className="flex items-center gap-2">
 							<ChevronsLeftRightEllipsis className="text-primary" />
@@ -149,7 +149,7 @@ export default function Footer() {
 					</nav>
 				</div>
 
-				<div className="text-muted-foreground text-xs flex pb-4 pt-8 items-center justify-between">
+				<div className="text-muted-foreground text-xs flex pb-4 pt-8 items-center justify-between md:px-2">
 					<div className="flex gap-4">
 						<Link href="/" className="hover:text-primary transition-colors">
 							Privacy Policy

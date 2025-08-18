@@ -5,7 +5,7 @@ import { BorderTrail } from "../ui/border-trail";
 
 export default function Pricing() {
 	return (
-		<section className="grid grid-cols-2 mx-auto gap-6">
+		<section className="grid grid-cols-1 md:grid-cols-2 mx-auto gap-12 md:gap-6 px-6 md:px-0">
 			<div className="flex flex-col gap-6 p-6">
 				<p className="text-xl font-medium">Free</p>
 

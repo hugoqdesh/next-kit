@@ -1,7 +1,6 @@
 import React from "react";
 import { Marquee } from "../ui/marquee";
 import Image from "next/image";
-import { ProgressiveBlur } from "../ui/progressive-blur";
 import { PointerHighlight } from "../ui/pointer-highlight";
 
 const reviews = [
@@ -108,16 +107,6 @@ export default function Testimonials() {
 						<ReviewCard key={review.username} {...review} />
 					))}
 				</Marquee>
-				<ProgressiveBlur
-					className="pointer-events-none absolute top-0 left-0 h-full w-[200px]"
-					direction="left"
-					blurIntensity={1}
-				/>
-				<ProgressiveBlur
-					className="pointer-events-none absolute top-0 right-0 h-full w-[200px"
-					direction="right"
-					blurIntensity={1}
-				/>
 				<div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background"></div>
 				<div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-background"></div>
 			</div>
