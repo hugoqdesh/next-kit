@@ -113,6 +113,7 @@ export default function Footer() {
 							<li>
 								<Link
 									href="/"
+									target="_blank"
 									className="text-sm hover:text-primary transition-colors flex items-center gap-1 w-max"
 								>
 									<Mail size={15} />
@@ -122,6 +123,7 @@ export default function Footer() {
 							<li>
 								<Link
 									href="/"
+									target="_blank"
 									className="text-sm hover:text-primary transition-colors flex items-center gap-1 w-max"
 								>
 									<Instagram size={15} />
@@ -131,6 +133,7 @@ export default function Footer() {
 							<li>
 								<Link
 									href="/"
+									target="_blank"
 									className="text-sm hover:text-primary transition-colors flex items-center gap-1 w-max"
 								>
 									<Github size={15} />
@@ -140,6 +143,7 @@ export default function Footer() {
 							<li>
 								<Link
 									href="/"
+									target="_blank"
 									className="text-sm hover:text-primary transition-colors flex items-center gap-1 w-max"
 								>
 									<Twitter size={15} />X

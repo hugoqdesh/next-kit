@@ -59,20 +59,14 @@ const ReviewCard = ({
 	return (
 		<figure
 			key={name}
-			className="relative h-full w-80 cursor-pointer overflow-hidden rounded-sm border p-4"
+			className="relative h-full w-80 cursor-pointer overflow-hidden border p-4"
 		>
 			<blockquote className="pb-6 text-sm">"{body}"</blockquote>
 
 			<hr />
 
 			<div className="flex flex-row items-center gap-2 pt-3">
-				<Image
-					className="rounded-full"
-					width="42"
-					height="42"
-					alt=""
-					src={img}
-				/>
+				<Image className="" width="42" height="42" alt="" src={img} />
 				<div className="flex flex-col">
 					<figcaption className="text-sm font-medium">{name}</figcaption>
 					<p className="text-xs font-medium text-muted-foreground">

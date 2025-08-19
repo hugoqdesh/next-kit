@@ -18,14 +18,14 @@ export default function Features() {
 			</h2>
 
 			<div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-6 mt-6">
-				<Card className="bg-background rounded-sm border-none">
+				<Card className="bg-background border-none">
 					<MagicCard
 						gradientFrom="#d97757"
 						gradientTo="#d97757"
 						className="p-6"
 					>
 						<CardContent className="flex flex-col items-center justify-center text-center gap-8 group">
-							<div className="border rounded-sm p-3">
+							<div className="border p-3">
 								<ShieldAlert
 									size={52}
 									className="text-muted-foreground/70 group-hover:text-muted-foreground transition-colors"
@@ -40,14 +40,14 @@ export default function Features() {
 					</MagicCard>
 				</Card>
 
-				<Card className="bg-background rounded-sm border-none">
+				<Card className="bg-background border-none">
 					<MagicCard
 						gradientFrom="#d97757"
 						gradientTo="#d97757"
 						className="p-6"
 					>
 						<CardContent className="flex flex-col items-center justify-center text-center gap-8 group">
-							<div className="border rounded-sm p-3">
+							<div className="border p-3">
 								<ShieldAlert
 									size={52}
 									className="text-muted-foreground/70 group-hover:text-muted-foreground transition-colors"
@@ -62,14 +62,14 @@ export default function Features() {
 					</MagicCard>
 				</Card>
 
-				<Card className="bg-background rounded-sm border-none">
+				<Card className="bg-background border-none">
 					<MagicCard
 						gradientFrom="#d97757"
 						gradientTo="#d97757"
 						className="p-6"
 					>
 						<CardContent className="flex flex-col items-center justify-center text-center gap-8 group">
-							<div className="border rounded-sm p-3">
+							<div className="border p-3">
 								<ShieldAlert
 									size={52}
 									className="text-muted-foreground/70 group-hover:text-muted-foreground transition-colors"
@@ -84,14 +84,14 @@ export default function Features() {
 					</MagicCard>
 				</Card>
 
-				<Card className="bg-background rounded-sm border-none">
+				<Card className="bg-background border-none">
 					<MagicCard
 						gradientFrom="#d97757"
 						gradientTo="#d97757"
 						className="p-6"
 					>
 						<CardContent className="flex flex-col items-center justify-center text-center gap-8 group">
-							<div className="border rounded-sm p-3">
+							<div className="border p-3">
 								<ShieldAlert
 									size={52}
 									className="text-muted-foreground/70 group-hover:text-muted-foreground transition-colors"
@@ -106,14 +106,14 @@ export default function Features() {
 					</MagicCard>
 				</Card>
 
-				<Card className="bg-background rounded-sm border-none">
+				<Card className="bg-background border-none">
 					<MagicCard
 						gradientFrom="#d97757"
 						gradientTo="#d97757"
 						className="p-6"
 					>
 						<CardContent className="flex flex-col items-center justify-center text-center gap-8 group">
-							<div className="border rounded-sm p-3">
+							<div className="border p-3">
 								<ShieldAlert
 									size={52}
 									className="text-muted-foreground/70 group-hover:text-muted-foreground transition-colors"
@@ -128,14 +128,14 @@ export default function Features() {
 					</MagicCard>
 				</Card>
 
-				<Card className="bg-background rounded-sm border-none">
+				<Card className="bg-background border-none">
 					<MagicCard
 						gradientFrom="#d97757"
 						gradientTo="#d97757"
 						className="p-6"
 					>
 						<CardContent className="flex flex-col items-center justify-center text-center gap-8 group">
-							<div className="border rounded-sm p-3">
+							<div className="border p-3">
 								<ShieldAlert
 									size={52}
 									className="text-muted-foreground/70 group-hover:text-muted-foreground transition-colors"

@@ -90,13 +90,13 @@ const IconCard = ({
 	return (
 		<div
 			className={cn(
-				"bg-background relative flex size-20 rounded-xl dark:bg-transparent",
+				"bg-background relative flex size-20 dark:bg-transparent",
 				className
 			)}
 		>
 			<div
 				role="presentation"
-				className="absolute inset-0 rounded-xl border border-black/20 dark:border-white/25"
+				className="absolute inset-0 border border-black/20 dark:border-white/25"
 			/>
 			<div className="relative z-20 m-auto size-fit *:size-8">{children}</div>
 		</div>

@@ -48,8 +48,8 @@ export default function Pricing() {
 				</Button>
 			</div>
 
-			<div className="flex flex-col gap-6 p-6 rounded-sm relative">
-				<span className="bg-linear-to-br/increasing absolute inset-x-0 -top-3 mx-auto flex h-6 w-fit items-center rounded-full from-primary to-secondary px-3 py-1 text-xs font-medium text-black ring-1 ring-inset ring-transparent z-10">
+			<div className="flex flex-col gap-6 p-6 relative">
+				<span className="bg-linear-to-br/increasing absolute inset-x-0 -top-3 mx-auto flex h-6 w-fit items-center from-primary to-secondary px-3 py-1 text-xs font-medium text-black ring-1 ring-inset ring-transparent z-10">
 					Popular
 				</span>
 				<BorderTrail
