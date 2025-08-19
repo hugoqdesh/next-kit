@@ -44,6 +44,7 @@ export default function FAQ() {
 			<h2 className="scroll-m-20 text-3xl font-semibold tracking-tight text-muted-foreground">
 				Questions you might{" "}
 				<PointerHighlight
+					rectangleClassName="border-primary"
 					pointerClassName="text-primary"
 					containerClassName="inline-block"
 				>

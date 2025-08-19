@@ -9,6 +9,7 @@ export default function CallToAction() {
 				<h2 className="scroll-m-20 text-3xl font-semibold tracking-tight text-muted-foreground">
 					You're just one{" "}
 					<PointerHighlight
+						rectangleClassName="border-primary"
 						pointerClassName="text-blue-600 dark:text-primary"
 						containerClassName="inline-block"
 					>

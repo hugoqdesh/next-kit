@@ -33,11 +33,6 @@ export default function Navbar() {
 					</p>
 				</Link>
 
-				<Link href="https://github.com/hugoqdesh/next-kit" target="_blank">
-					<Button size="icon" variant="ghost">
-						<Github size={16} className="text-muted-foreground " />
-					</Button>
-				</Link>
 				<ModeToggle />
 			</nav>
 		</header>

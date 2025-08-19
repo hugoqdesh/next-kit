@@ -82,7 +82,10 @@ export default function Testimonials() {
 	return (
 		<section className="flex flex-col gap-4">
 			<h2 className="scroll-m-20 text-3xl font-semibold tracking-tight first:mt-0 mx-auto text-primary">
-				<PointerHighlight pointerClassName="text-primary">
+				<PointerHighlight
+					rectangleClassName="border-primary"
+					pointerClassName="text-primary"
+				>
 					What people are saying
 				</PointerHighlight>
 			</h2>

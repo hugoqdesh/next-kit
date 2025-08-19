@@ -10,6 +10,7 @@ export default function Features() {
 			<h2 className="scroll-m-20 text-3xl font-semibold tracking-tight text-muted-foreground">
 				Everything you need to{" "}
 				<PointerHighlight
+					rectangleClassName="border-primary"
 					pointerClassName="text-primary"
 					containerClassName="inline-block"
 				>
