@@ -1,11 +1,10 @@
 import CallToAction from "@/components/landing/call-to-action";
 import FAQ from "@/components/landing/faq";
-import Features from "@/components/landing/features";
 import Hero from "@/components/landing/hero";
 import Pricing from "@/components/landing/pricing";
-import Showcase from "@/components/landing/showcase";
 import Testimonials from "@/components/landing/testimonials";
 import Prism from "@/components/landing/background";
+import Features from "@/components/landing/features";
 
 export default function Home() {
 	return (
@@ -27,9 +26,7 @@ export default function Home() {
 				</div>
 			</section>
 
-			<main className="flex min-h-screen flex-col gap-28 px-6 py-24 max-w-7xl mx-auto">
-				<Showcase />
-
+			<main className="flex min-h-screen flex-col gap-32 px-6 py-24 max-w-7xl mx-auto">
 				<Features />
 
 				<Pricing />

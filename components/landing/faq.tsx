@@ -40,7 +40,7 @@ const items = [
 export default function FAQ() {
 	return (
 		<section className="space-y-4">
-			<h2 className="scroll-m-20 text-3xl font-semibold tracking-tight text-muted-foreground">
+			<h2 className="scroll-m-20 text-4xl font-semibold tracking-tight text-muted-foreground">
 				Questions you might{" "}
 				<span className="text-primary">want answers to</span>
 			</h2>

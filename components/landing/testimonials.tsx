@@ -79,13 +79,10 @@ const ReviewCard = ({
 
 export default function Testimonials() {
 	return (
-		<section className="flex flex-col gap-">
-			<h2 className="scroll-m-20 text-3xl font-semibold tracking-tight first:mt-0 mx-auto text-primary">
+		<section className="flex flex-col gap-4">
+			<h2 className="scroll-m-20 text-4xl font-semibold tracking-tight first:mt-0 mx-auto text-primary">
 				What people are saying
 			</h2>
-			<p className="text-muted-foreground text-center">
-				Join thousands of developers who trust Next-Kit for their x needs
-			</p>
 
 			<div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
 				<Marquee className="[--duration:20s]">

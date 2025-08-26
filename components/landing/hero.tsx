@@ -1,4 +1,4 @@
-import { Gift, HeartHandshake } from "lucide-react";
+import { BookCopy, Gift, HeartHandshake } from "lucide-react";
 import { Button } from "../ui/button";
 
 export default function Hero() {
@@ -14,7 +14,7 @@ export default function Hero() {
 				authentication, billing, and more.
 			</p>
 			<div className="flex items-center gap-2">
-				<Button variant="outline" className="w-max">
+				<Button variant="default" className="w-max">
 					<HeartHandshake
 						className="-ms-0.5 opacity-60"
 						size={16}
@@ -23,12 +23,20 @@ export default function Hero() {
 					Get Started
 				</Button>
 
-				<div className="flex items-center gap-1">
-					<Gift size={18} className="text-primary" />
-					<p className="text-muted-foreground text-sm">
-						<span className="text-primary">-20%</span> to first 100 users
-					</p>
-				</div>
+				<Button variant="outline" className="w-max">
+					<BookCopy
+						className="-ms-0.5 opacity-60"
+						size={16}
+						aria-hidden="true"
+					/>
+					Book a demo
+				</Button>
+			</div>
+			<div className="flex items-center gap-1">
+				<Gift size={18} className="text-primary" />
+				<p className="text-muted-foreground text-sm">
+					<span className="text-primary">-20%</span> to first 100 users
+				</p>
 			</div>
 		</section>
 	);

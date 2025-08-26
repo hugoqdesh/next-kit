@@ -12,11 +12,9 @@ export default function CallToAction() {
 				className="p-20 rounded"
 			>
 				<div className="flex flex-col items-center justify-center text-center gap-4">
-					<h2 className="scroll-m-20 text-3xl font-semibold tracking-tight text-muted-foreground">
-						You're just one <span className="text-primary">click away</span>
+					<h2 className="scroll-m-20 text-7xl font-semibold tracking-tight text-muted-foreground">
+						You're a <span className="text-primary">click away</span>
 					</h2>
-
-					<p>Libero sapiente aliquam quibusdam aspernatur.</p>
 
 					<Button variant="outline" className="w-max">
 						<HeartHandshake
