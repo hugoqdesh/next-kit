@@ -5,7 +5,6 @@ import {
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 import { MessageCircleQuestionMark } from "lucide-react";
-import { PointerHighlight } from "../ui/pointer-highlight";
 
 const items = [
 	{
@@ -43,16 +42,10 @@ export default function FAQ() {
 		<section className="space-y-4">
 			<h2 className="scroll-m-20 text-3xl font-semibold tracking-tight text-muted-foreground">
 				Questions you might{" "}
-				<PointerHighlight
-					rectangleClassName="border-primary"
-					pointerClassName="text-primary"
-					containerClassName="inline-block"
-				>
-					<span className="text-primary">want answers to</span>
-				</PointerHighlight>
+				<span className="text-primary">want answers to</span>
 			</h2>
 
-			<Accordion type="single" collapsible className="w-full" defaultValue="3">
+			<Accordion type="single" collapsible className="w-full">
 				{items.map((item) => (
 					<AccordionItem value={item.id} key={item.id} className="py-2">
 						<AccordionTrigger className="py-2 text-lg leading-6 hover:no-underline">

@@ -1,11 +1,10 @@
-import { ChevronsLeftRightEllipsis, Github } from "lucide-react";
+import { ChevronsLeftRightEllipsis } from "lucide-react";
 import Link from "next/link";
 import { ModeToggle } from "../mode-toggle";
-import { Button } from "../ui/button";
 
 export default function Navbar() {
 	return (
-		<header className="flex items-center justify-between px-4 md:px-8 py-3 border-b">
+		<header className="flex items-center justify-between px-4 md:px-8 py-3 border-b border-muted-foreground/20">
 			<Link href="/" className="flex items-center gap-2">
 				<ChevronsLeftRightEllipsis className="text-primary" />
 				<span className="font-semibold text-lg">Next-Kit</span>

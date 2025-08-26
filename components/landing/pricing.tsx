@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "../ui/button";
 import { CheckCircle, MousePointerClick, Ratio, XCircle } from "lucide-react";
 import { BorderTrail } from "../ui/border-trail";
+import ElectricBorder from "../ui/electric-border";
 
 export default function Pricing() {
 	return (
@@ -48,58 +49,54 @@ export default function Pricing() {
 				</Button>
 			</div>
 
-			<div className="flex flex-col gap-6 p-6 relative">
-				<span className="bg-linear-to-br/increasing absolute inset-x-0 -top-3 mx-auto flex h-6 w-fit items-center from-primary to-secondary px-3 py-1 text-xs font-medium text-black ring-1 ring-inset ring-transparent z-10">
-					Popular
-				</span>
-				<BorderTrail
-					className="bg-primary"
-					style={{
-						boxShadow:
-							"0px 0px 80px 30px rgb(0 0 0 / 15%), 0 0 100px 60px rgb(0 0 0 / 15%), 0 0 140px 90px rgb(0 0 0 / 15%)",
-					}}
-					size={240}
-				/>
-				<p className="text-2xl font-medium">Pro</p>
+			<ElectricBorder
+				speed={0.25}
+				chaos={0.4}
+				thickness={1.5}
+				className="p-4 rounded"
+			>
+				<div className="flex flex-col gap-6 p-6 relative">
+					<p className="text-2xl font-medium">Pro</p>
 
-				<div>
-					<div className="flex gap-1 items-end">
-						<p className="text-5xl font-medium">$8.49</p>
-						<p className="text-muted-foreground text-lg">/month</p>
+					<div>
+						<div className="flex gap-1 items-end">
+							<p className="text-5xl font-medium">$8.49</p>
+							<p className="text-muted-foreground text-lg">/month</p>
+						</div>
+						<p className="pt-1">Advanced tools for a refined workflow.</p>
 					</div>
-					<p className="pt-1">Advanced tools for a refined workflow.</p>
+
+					<hr />
+
+					<div className="flex flex-col gap-3">
+						<div className="flex items-center gap-2">
+							<CheckCircle size={20} className="text-primary" />
+							<p>Use your own AI API Keys</p>
+						</div>
+						<div className="flex items-center gap-2">
+							<CheckCircle size={20} className="text-primary" />
+							<p>Use your own AI API Keys</p>
+						</div>
+						<div className="flex items-center gap-2">
+							<CheckCircle size={20} className="text-primary" />
+							<p>Use your own AI API Keys</p>
+						</div>
+						<div className="flex items-center gap-2">
+							<CheckCircle size={20} className="text-primary" />
+							<p>Use your own AI API Keys</p>
+						</div>
+					</div>
+
+					<Button variant="outline">
+						<Ratio
+							className="-ms-0.5 text-primary"
+							size={16}
+							aria-hidden="true"
+						/>
+						Get Pro
+					</Button>
 				</div>
-
-				<hr />
-
-				<div className="flex flex-col gap-3">
-					<div className="flex items-center gap-2">
-						<CheckCircle size={20} className="text-primary" />
-						<p>Use your own AI API Keys</p>
-					</div>
-					<div className="flex items-center gap-2">
-						<CheckCircle size={20} className="text-primary" />
-						<p>Use your own AI API Keys</p>
-					</div>
-					<div className="flex items-center gap-2">
-						<CheckCircle size={20} className="text-primary" />
-						<p>Use your own AI API Keys</p>
-					</div>
-					<div className="flex items-center gap-2">
-						<CheckCircle size={20} className="text-primary" />
-						<p>Use your own AI API Keys</p>
-					</div>
-				</div>
-
-				<Button variant="outline">
-					<Ratio
-						className="-ms-0.5 text-primary"
-						size={16}
-						aria-hidden="true"
-					/>
-					Get Pro
-				</Button>
-			</div>
+			</ElectricBorder>
 		</section>
 	);
 }

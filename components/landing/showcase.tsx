@@ -1,10 +1,16 @@
 import React from "react";
 import Image from "next/image";
+import ElectricBorder from "../ui/electric-border";
 
 export default function Showcase() {
 	return (
-		<section className="p-4 md:p-6 flex flex-col gap-6 border border-dashed">
-			<div className="border border-dashed p-1">
+		<section>
+			<ElectricBorder
+				speed={0.25}
+				chaos={0.4}
+				thickness={1.5}
+				className="p-4 md:p-6 rounded"
+			>
 				<Image
 					src="/test2.png"
 					alt=""
@@ -14,7 +20,7 @@ export default function Showcase() {
 					priority
 					className="w-full select-none"
 				/>
-			</div>
+			</ElectricBorder>
 		</section>
 	);
 }

@@ -11,7 +11,7 @@ import { TextHoverEffect } from "../ui/text-hover-effect";
 
 export default function Footer() {
 	return (
-		<footer className="border-t">
+		<footer className="border-t border-muted-foreground/20">
 			<div className="max-w-7xl mx-auto pt-8 px-4 md:px-0">
 				<div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:px-2">
 					<div>
@@ -172,7 +172,7 @@ export default function Footer() {
 					<p>© 2025 Next-Kit</p>
 				</div>
 
-				<hr />
+				<hr className="text-muted-foreground/20" />
 
 				<TextHoverEffect text="NEXT-KIT" />
 			</div>

@@ -1,7 +1,6 @@
 import React from "react";
 import { Marquee } from "../ui/marquee";
 import Image from "next/image";
-import { PointerHighlight } from "../ui/pointer-highlight";
 
 const reviews = [
 	{
@@ -59,11 +58,11 @@ const ReviewCard = ({
 	return (
 		<figure
 			key={name}
-			className="relative h-full w-80 cursor-pointer overflow-hidden border p-4"
+			className="relative h-full w-80 cursor-pointer overflow-hidden border border-muted-foreground/20 p-4"
 		>
 			<blockquote className="pb-6 text-sm">"{body}"</blockquote>
 
-			<hr />
+			<hr className="text-muted-foreground/20" />
 
 			<div className="flex flex-row items-center gap-2 pt-3">
 				<Image className="" width="42" height="42" alt="" src={img} />
@@ -80,16 +79,11 @@ const ReviewCard = ({
 
 export default function Testimonials() {
 	return (
-		<section className="flex flex-col gap-4">
+		<section className="flex flex-col gap-">
 			<h2 className="scroll-m-20 text-3xl font-semibold tracking-tight first:mt-0 mx-auto text-primary">
-				<PointerHighlight
-					rectangleClassName="border-primary"
-					pointerClassName="text-primary"
-				>
-					What people are saying
-				</PointerHighlight>
+				What people are saying
 			</h2>
-			<p className="text-muted-foreground text-center pt-1.5">
+			<p className="text-muted-foreground text-center">
 				Join thousands of developers who trust Next-Kit for their x needs
 			</p>
 
@@ -104,8 +98,8 @@ export default function Testimonials() {
 						<ReviewCard key={review.username} {...review} />
 					))}
 				</Marquee>
-				<div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background"></div>
-				<div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-background"></div>
+				<div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-[#ffffff] dark:from-[#1c1b22]"></div>
+				<div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-[#ffffff] dark:from-[#1c1b22]"></div>
 			</div>
 		</section>
 	);

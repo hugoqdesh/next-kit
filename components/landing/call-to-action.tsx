@@ -1,33 +1,33 @@
 import { Button } from "@/components/ui/button";
-import { PointerHighlight } from "../ui/pointer-highlight";
 import { HeartHandshake } from "lucide-react";
+import ElectricBorder from "../ui/electric-border";
 
 export default function CallToAction() {
 	return (
-		<section className="mx-auto max-w-5xl w-full border px-6 py-32">
-			<div className="flex flex-col items-center justify-center text-center gap-4">
-				<h2 className="scroll-m-20 text-3xl font-semibold tracking-tight text-muted-foreground">
-					You're just one{" "}
-					<PointerHighlight
-						rectangleClassName="border-primary"
-						pointerClassName="text-blue-600 dark:text-primary"
-						containerClassName="inline-block"
-					>
-						<span className="text-primary">click away</span>
-					</PointerHighlight>
-				</h2>
+		<section className="mx-auto max-w-5xl w-full px-6 py-32">
+			<ElectricBorder
+				speed={0.25}
+				chaos={0.4}
+				thickness={1.5}
+				className="p-20 rounded"
+			>
+				<div className="flex flex-col items-center justify-center text-center gap-4">
+					<h2 className="scroll-m-20 text-3xl font-semibold tracking-tight text-muted-foreground">
+						You're just one <span className="text-primary">click away</span>
+					</h2>
 
-				<p>Libero sapiente aliquam quibusdam aspernatur.</p>
+					<p>Libero sapiente aliquam quibusdam aspernatur.</p>
 
-				<Button variant="outline" className="w-max">
-					<HeartHandshake
-						className="-ms-0.5 opacity-60"
-						size={16}
-						aria-hidden="true"
-					/>
-					Get Started
-				</Button>
-			</div>
+					<Button variant="outline" className="w-max">
+						<HeartHandshake
+							className="-ms-0.5 opacity-60"
+							size={16}
+							aria-hidden="true"
+						/>
+						Get Started
+					</Button>
+				</div>
+			</ElectricBorder>
 		</section>
 	);
 }

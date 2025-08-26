@@ -5,23 +5,41 @@ import Hero from "@/components/landing/hero";
 import Pricing from "@/components/landing/pricing";
 import Showcase from "@/components/landing/showcase";
 import Testimonials from "@/components/landing/testimonials";
+import Prism from "@/components/landing/background";
 
 export default function Home() {
 	return (
-		<main className="flex min-h-screen flex-col gap-28 px-6 py-24 max-w-7xl mx-auto">
-			<Hero />
+		<>
+			<section className="relative w-full min-h-screen overflow-hidden">
+				<div className="absolute inset-0 z-0">
+					<Prism
+						animationType="rotate"
+						timeScale={0.2}
+						noise={0.2}
+						glow={0.8}
+					/>
+				</div>
 
-			<Showcase />
+				<div className="relative z-20 flex items-center justify-center min-h-screen px-6">
+					<div className="max-w-7xl mx-auto w-full">
+						<Hero />
+					</div>
+				</div>
+			</section>
 
-			<Features />
+			<main className="flex min-h-screen flex-col gap-28 px-6 py-24 max-w-7xl mx-auto">
+				<Showcase />
 
-			<Pricing />
+				<Features />
 
-			<FAQ />
+				<Pricing />
 
-			<Testimonials />
+				<FAQ />
 
-			<CallToAction />
-		</main>
+				<Testimonials />
+
+				<CallToAction />
+			</main>
+		</>
 	);
 }
