@@ -17,7 +17,7 @@ export default function Features() {
 					className="p-4 md:p-4 rounded"
 				>
 					<Image
-						src="/test2.png"
+						src="/feature.jpg"
 						alt=""
 						height={1920}
 						width={1080}
@@ -40,7 +40,7 @@ export default function Features() {
 					className="p-4 md:p-6 rounded"
 				>
 					<Image
-						src="/test2.png"
+						src="/feature.jpg"
 						alt=""
 						height={1920}
 						width={1080}
@@ -63,7 +63,7 @@ export default function Features() {
 					className="p-4 md:p-6 rounded"
 				>
 					<Image
-						src="/test2.png"
+						src="/feature.jpg"
 						alt=""
 						height={1920}
 						width={1080}

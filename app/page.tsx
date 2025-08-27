@@ -2,7 +2,6 @@ import CallToAction from "@/components/landing/call-to-action";
 import FAQ from "@/components/landing/faq";
 import Hero from "@/components/landing/hero";
 import Pricing from "@/components/landing/pricing";
-import Testimonials from "@/components/landing/testimonials";
 import Prism from "@/components/landing/background";
 import Features from "@/components/landing/features";
 
@@ -32,8 +31,6 @@ export default function Home() {
 				<Pricing />
 
 				<FAQ />
-
-				<Testimonials />
 
 				<CallToAction />
 			</main>
