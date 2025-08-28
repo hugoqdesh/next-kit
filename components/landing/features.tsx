@@ -14,7 +14,7 @@ export default function Features() {
 					speed={0.25}
 					chaos={0.4}
 					thickness={1.5}
-					className="p-4 md:p-4 rounded"
+					className="p-4 md:p-5 rounded-2xl"
 				>
 					<Image
 						src="/feature.jpg"
@@ -23,7 +23,7 @@ export default function Features() {
 						width={1080}
 						unoptimized
 						priority
-						className="w-full select-none"
+						className="w-full select-none rounded-xl"
 					/>
 				</ElectricBorder>
 			</div>
@@ -37,7 +37,7 @@ export default function Features() {
 					speed={0.25}
 					chaos={0.4}
 					thickness={1.5}
-					className="p-4 md:p-6 rounded"
+					className="p-4 md:p-5 rounded-2xl"
 				>
 					<Image
 						src="/feature.jpg"
@@ -46,7 +46,7 @@ export default function Features() {
 						width={1080}
 						unoptimized
 						priority
-						className="w-full select-none"
+						className="w-full select-none rounded-xl"
 					/>
 				</ElectricBorder>
 			</div>
@@ -60,7 +60,7 @@ export default function Features() {
 					speed={0.25}
 					chaos={0.4}
 					thickness={1.5}
-					className="p-4 md:p-6 rounded"
+					className="p-4 md:p-5 rounded-2xl"
 				>
 					<Image
 						src="/feature.jpg"
@@ -69,7 +69,7 @@ export default function Features() {
 						width={1080}
 						unoptimized
 						priority
-						className="w-full select-none"
+						className="w-full select-none rounded-xl"
 					/>
 				</ElectricBorder>
 			</div>

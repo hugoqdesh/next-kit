@@ -53,7 +53,7 @@ export default function Pricing() {
 				speed={0.25}
 				chaos={0.4}
 				thickness={1.5}
-				className="p-4 rounded"
+				className="p-4 rounded-2xl"
 			>
 				<div className="flex flex-col gap-6 p-6 relative">
 					<p className="text-2xl font-medium">Pro</p>
