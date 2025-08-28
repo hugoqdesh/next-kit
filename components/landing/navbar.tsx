@@ -19,11 +19,6 @@ export default function Navbar() {
 				</Link>
 				<Link href="/">
 					<p className="text-sm text-muted-foreground hover:text-primary transition-colors hidden md:block">
-						Blog
-					</p>
-				</Link>
-				<Link href="/">
-					<p className="text-sm text-muted-foreground hover:text-primary transition-colors hidden md:block">
 						Pricing
 					</p>
 				</Link>

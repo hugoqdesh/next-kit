@@ -39,7 +39,7 @@ export default function Pricing() {
 					</div>
 				</div>
 
-				<Button size="sm" variant="ghost">
+				<Button size="sm" variant="secondary">
 					<MousePointerClick
 						className="-ms-0.5 opacity-60"
 						size={16}

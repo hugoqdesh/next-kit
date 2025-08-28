@@ -3,13 +3,11 @@ import { Button } from "../ui/button";
 
 export default function Hero() {
 	return (
-		<section className="flex flex-col items-center justify-center gap-6">
-			<h1 className="font-semibold text-7xl leading-tight tracking-tight text-muted-foreground">
-				<span className="text-primary">Ship</span> second{" "}
-				<span className="text-primary">Analytics</span>{" "}
-				<span className="text-primary">not</span> daily
+		<section className="flex flex-col items-center justify-center gap-6 text-center">
+			<h1 className="font-semibold text-5xl md:text-7xl leading-tight tracking-tight">
+				Create Beautiful Projects
 			</h1>
-			<p className="font-medium text-muted-foreground">
+			<p className="font-medium text-muted-foreground text-sm md:text-base">
 				NextJS full-stack SaaS boilerplate with all you need to start. Includes
 				authentication, billing, and more.
 			</p>
