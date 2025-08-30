@@ -29,7 +29,7 @@ export default function Navbar() {
 				</Link>
 
 				<Link href="/">
-					<Button>Try for free</Button>
+					<Button>Get Started</Button>
 				</Link>
 
 				<ModeToggle />

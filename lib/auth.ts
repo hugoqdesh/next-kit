@@ -14,6 +14,11 @@ export const auth = betterAuth({
 			clientSecret: process.env.GITHUB_CLIENT_SECRET as string,
 		},
 	},
+	rateLimit: {
+		enabled: true,
+		window: 10,
+		max: 3,
+	},
 	telemetry: {
 		enabled: false,
 	},

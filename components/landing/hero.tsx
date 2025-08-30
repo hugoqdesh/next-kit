@@ -27,7 +27,7 @@ export default function Hero() {
 						size={16}
 						aria-hidden="true"
 					/>
-					Book a demo
+					Request Demo
 				</Button>
 			</div>
 			<div className="flex items-center gap-1">
