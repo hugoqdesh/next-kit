@@ -7,7 +7,7 @@ export default function Hero() {
 			<h1 className="font-semibold text-5xl md:text-7xl leading-tight tracking-tight">
 				Create Beautiful Projects
 			</h1>
-			<p className="font-medium text-muted-foreground text-sm md:text-base">
+			<p className="font-medium text-sm md:text-base">
 				NextJS full-stack SaaS boilerplate with all you need to start. Includes
 				authentication, billing, and more.
 			</p>

@@ -4,10 +4,14 @@ import Hero from "@/components/landing/hero";
 import Pricing from "@/components/landing/pricing";
 import Prism from "@/components/landing/background";
 import Features from "@/components/landing/features";
+import Navbar from "@/components/landing/navbar";
+import Footer from "@/components/landing/footer";
 
 export default function Home() {
 	return (
 		<>
+			<Navbar />
+
 			<section className="relative w-full min-h-screen overflow-hidden">
 				<div className="absolute inset-0 z-0">
 					<Prism
@@ -34,6 +38,8 @@ export default function Home() {
 
 				<CallToAction />
 			</main>
+
+			<Footer />
 		</>
 	);
 }
