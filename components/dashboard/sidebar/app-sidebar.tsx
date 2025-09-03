@@ -4,7 +4,6 @@ import * as React from "react";
 import {
 	Sidebar,
 	SidebarContent,
-	SidebarFooter,
 	SidebarHeader,
 	SidebarMenu,
 	SidebarMenuButton,
@@ -13,11 +12,11 @@ import {
 import { NavUser } from "./nav-user";
 import {
 	ChartNoAxesCombined,
+	ChevronsLeftRightEllipsis,
 	Contact,
 	LayoutDashboard,
 	Logs,
 	MessageCircle,
-	Moon,
 	Paperclip,
 	Settings,
 	ToyBrick,
@@ -88,9 +87,9 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 							className="data-[slot=sidebar-menu-button]:!p-1.5"
 						>
 							<a href="#">
-								<Moon className="!size-5" />
+								<ChevronsLeftRightEllipsis className="!size-5" />
 								<span className="text-base font-semibold select-none">
-									Lunor
+									Next-Kit
 								</span>
 							</a>
 						</SidebarMenuButton>
