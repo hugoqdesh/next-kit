@@ -1,10 +1,19 @@
+"use client";
+
 import React from "react";
 import { Button } from "../ui/button";
 import { CheckCircle, MousePointerClick, Ratio, XCircle } from "lucide-react";
-import { BorderTrail } from "../ui/border-trail";
 import ElectricBorder from "../ui/electric-border";
+import { authClient } from "@/lib/auth-client";
 
 export default function Pricing() {
+	const buy = async () => {
+		await authClient.checkout({
+			products: ["693082e9-2287-42d9-bebe-b50497a2c251"],
+			slug: "product",
+		});
+	};
+
 	return (
 		<section className="grid grid-cols-1 md:grid-cols-2 mx-auto gap-12 md:gap-6 px-6 md:px-0">
 			<div className="flex flex-col gap-6 p-6">
@@ -87,7 +96,7 @@ export default function Pricing() {
 						</div>
 					</div>
 
-					<Button variant="outline">
+					<Button variant="outline" onClick={() => buy()}>
 						<Ratio
 							className="-ms-0.5 text-primary"
 							size={16}

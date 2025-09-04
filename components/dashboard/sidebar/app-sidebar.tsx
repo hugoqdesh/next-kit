@@ -9,7 +9,6 @@ import {
 	SidebarMenuButton,
 	SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import { NavUser } from "./nav-user";
 import {
 	ChartNoAxesCombined,
 	ChevronsLeftRightEllipsis,
@@ -99,6 +98,13 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 			<SidebarContent className="pt-4">
 				<NavMain items={data.navMain} />
 				<NavBottom items={data.navBottom} className="mt-auto" />
+
+				{/* <SidebarMenuButton
+					asChild
+					onClick={async () => await authClient.customer.portal()}
+				>
+					<span>Billing</span>
+				</SidebarMenuButton> */}
 			</SidebarContent>
 		</Sidebar>
 	);
