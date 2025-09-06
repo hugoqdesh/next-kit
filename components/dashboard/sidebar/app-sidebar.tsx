@@ -22,6 +22,7 @@ import {
 } from "lucide-react";
 import { NavBottom } from "./nav-bottom";
 import { NavMain } from "./nav-main";
+import Link from "next/link";
 
 const data = {
 	user: {
@@ -81,17 +82,12 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 			<SidebarHeader>
 				<SidebarMenu>
 					<SidebarMenuItem>
-						<SidebarMenuButton
-							asChild
-							className="data-[slot=sidebar-menu-button]:!p-1.5"
-						>
-							<a href="#">
-								<ChevronsLeftRightEllipsis className="!size-5" />
-								<span className="text-base font-semibold select-none">
-									Next-Kit
-								</span>
-							</a>
-						</SidebarMenuButton>
+						<Link href="/" className="flex gap-2">
+							<ChevronsLeftRightEllipsis className="!size-5" />
+							<span className="text-base font-semibold select-none">
+								Next-Kit
+							</span>
+						</Link>
 					</SidebarMenuItem>
 				</SidebarMenu>
 			</SidebarHeader>

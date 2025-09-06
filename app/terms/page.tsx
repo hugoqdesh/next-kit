@@ -22,7 +22,7 @@ export default function Terms() {
 			</p>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Introduction</h2>
+				<h2 className="text-2xl font-bold text-primary">Introduction</h2>
 
 				<p>
 					Welcome to Next-Kit ("we," "our," or "us"). These Terms of Service
@@ -38,7 +38,7 @@ export default function Terms() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Definitions</h2>
+				<h2 className="text-2xl font-bold text-primary">Definitions</h2>
 
 				<p>To make these terms clear, here are some key definitions:</p>
 
@@ -69,7 +69,9 @@ export default function Terms() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Account Registration</h2>
+				<h2 className="text-2xl font-bold text-primary">
+					Account Registration
+				</h2>
 
 				<p>
 					To use our Service, you need to create an account. When you register,
@@ -86,7 +88,7 @@ export default function Terms() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Acceptable Use</h2>
+				<h2 className="text-2xl font-bold text-primary">Acceptable Use</h2>
 
 				<p>You may use our Service to:</p>
 
@@ -116,7 +118,7 @@ export default function Terms() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Privacy and Data</h2>
+				<h2 className="text-2xl font-bold text-primary">Privacy and Data</h2>
 
 				<p>
 					Your privacy is important to us. Our Privacy Policy explains how we
@@ -140,7 +142,9 @@ export default function Terms() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Billing and Payments</h2>
+				<h2 className="text-2xl font-bold text-primary">
+					Billing and Payments
+				</h2>
 
 				<p>We implement comprehensive security measures:</p>
 
@@ -157,7 +161,9 @@ export default function Terms() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Service Availability</h2>
+				<h2 className="text-2xl font-bold text-primary">
+					Service Availability
+				</h2>
 
 				<p>
 					We strive to provide reliable service, but we cannot guarantee 100%
@@ -174,7 +180,9 @@ export default function Terms() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Intellectual Property</h2>
+				<h2 className="text-2xl font-bold text-primary">
+					Intellectual Property
+				</h2>
 
 				<p>
 					The Service and its original content, features, and functionality are
@@ -191,7 +199,9 @@ export default function Terms() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Limitation of Liability</h2>
+				<h2 className="text-2xl font-bold text-primary">
+					Limitation of Liability
+				</h2>
 
 				<p>
 					To the maximum extent permitted by law, Next-Kit shall not be liable
@@ -207,7 +217,7 @@ export default function Terms() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Termination</h2>
+				<h2 className="text-2xl font-bold text-primary">Termination</h2>
 
 				<p>You may cancel your account at any time by:</p>
 
@@ -232,7 +242,7 @@ export default function Terms() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Changes to Terms</h2>
+				<h2 className="text-2xl font-bold text-primary">Changes to Terms</h2>
 
 				<p>
 					We may update these Terms from time to time. We'll notify you of
@@ -252,7 +262,7 @@ export default function Terms() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Governing Law</h2>
+				<h2 className="text-2xl font-bold text-primary">Governing Law</h2>
 
 				<p>
 					These Terms are governed by and construed in accordance with the laws
@@ -277,7 +287,7 @@ export default function Terms() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Severability</h2>
+				<h2 className="text-2xl font-bold text-primary">Severability</h2>
 
 				<p>
 					If any provision of these Terms is found to be unenforceable, the
@@ -286,7 +296,7 @@ export default function Terms() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Entire Agreement</h2>
+				<h2 className="text-2xl font-bold text-primary">Entire Agreement</h2>
 
 				<p>
 					These Terms, together with our Privacy Policy, constitute the entire

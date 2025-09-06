@@ -23,7 +23,9 @@ export default function Privacy() {
 			</p>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Our Privacy-First Principles</h2>
+				<h2 className="text-2xl font-bold text-primary">
+					Our Privacy-First Principles
+				</h2>
 
 				<p>
 					Next-Kit is built on privacy-first principles that guide everything we
@@ -59,7 +61,9 @@ export default function Privacy() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Information We Collect</h2>
+				<h2 className="text-2xl font-bold text-primary">
+					Information We Collect
+				</h2>
 
 				<p>
 					When you sign up for Next-Kit, we collect minimal, anonymized data :
@@ -121,7 +125,9 @@ export default function Privacy() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">No Cookies, No Tracking</h2>
+				<h2 className="text-2xl font-bold text-primary">
+					No Cookies, No Tracking
+				</h2>
 
 				<p>
 					Unlike traditional x services, Next-Kit is designed to respect user
@@ -150,7 +156,9 @@ export default function Privacy() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">How We Use Information</h2>
+				<h2 className="text-2xl font-bold text-primary">
+					How We Use Information
+				</h2>
 
 				<p>We use anonymized user information to: </p>
 
@@ -172,7 +180,7 @@ export default function Privacy() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Privacy Rights</h2>
+				<h2 className="text-2xl font-bold text-primary">Privacy Rights</h2>
 
 				<p>As a user, you have the right to:</p>
 
@@ -201,7 +209,7 @@ export default function Privacy() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Data Security</h2>
+				<h2 className="text-2xl font-bold text-primary">Data Security</h2>
 
 				<p>We implement comprehensive security measures:</p>
 
@@ -234,7 +242,7 @@ export default function Privacy() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Payments</h2>
+				<h2 className="text-2xl font-bold text-primary">Payments</h2>
 
 				<p>
 					We use third-party services for payment processing (e.g. payment
@@ -263,7 +271,7 @@ export default function Privacy() {
 			</div>
 
 			<div className="flex flex-col gap-4 text-muted-foreground">
-				<h2 className="text-2xl font-bold">Contact us</h2>
+				<h2 className="text-2xl font-bold text-primary">Contact us</h2>
 
 				<p>
 					If you have any questions, concerns or complaints regarding our
